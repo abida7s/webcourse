@@ -71,24 +71,6 @@ public class WebDevCourseRegistration {
         agreeBox.setBounds(50, 280, 300, 30);
         frame.add(agreeBox);
         
-        JLabel trackLabel = new JLabel("Preferred Track:");
-        trackLabel.setBounds(50, 320, 120, 30);
-        frame.add(trackLabel);
-
-        String[] tracks = {"Frontend Development", "Backend Development", "Full Stack Development"};
-        JComboBox<String> trackBox = new JComboBox<>(tracks);
-        trackBox.setBounds(200, 320, 200, 30);
-        frame.add(trackBox);
-
-        JLabel expLabel = new JLabel("Experience Level:");
-        expLabel.setBounds(50, 360, 120, 30);
-        frame.add(expLabel);
-
-        String[] levels = {"Beginner", "Intermediate", "Advanced"};
-        JComboBox<String> experienceBox = new JComboBox<>(levels);
-        experienceBox.setBounds(200, 360, 200, 30);
-        frame.add(experienceBox);
-        
         JButton submitBtn = new JButton("Submit");
         submitBtn.setBounds(400, 410, 100, 30);
         submitBtn.setBackground(new Color(66, 133, 244)); 
